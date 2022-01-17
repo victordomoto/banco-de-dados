@@ -1,0 +1,20 @@
+1) π course_id, title, dept_name, credits σ (dept_name= 'Biology') (course)
+
+2) π instructor.name instructor
+
+3) π name,salary (instructor)
+
+4) π title σ (dept_name= 'Comp. Sci.') (course)
+
+5) π year,semester σ (dept_name= 'Comp. Sci.') (department⟕section)
+
+6) π course_id,prereq_id σ (prereq_id = 'CS-101') (prereq)
+
+7) 
+
+8) π year σ(course_id = 'CS-101') (takes)
+
+9) π capacity (classroom)
+
+10) π year,semester,course_id σ (name = 'Einstein') (section⟕instructor)
+
