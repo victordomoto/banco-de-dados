@@ -1,2 +1,2 @@
 # Banco de Dados
-* Scripts (SQL) da disciplica de BD
+* Scripts (SQL) da disciplina de BD
